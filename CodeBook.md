@@ -3,14 +3,14 @@ This project include these following steps:
 * Dataset downloaded and extracted under the folder called `UCI HAR Dataset`
 
 * Assign each data to variables
-   *`features` <- `features.txt` : 561 rows, 2 columns
-   *`activities` <- `activity_labels.txt` : 6 rows, 2 columns
-   *`subject_test` <- `test/subject_test.txt` : 2947 rows, 1 column
-   *`x_test` <- `test/X_test.txt` : 2947 rows, 561 columns
-   *`y_test` <- `test/y_test.txt` : 2947 rows, 1 columns
-   *`subject_train` <- `test/subject_train.txt` : 7352 rows, 1 column
-   *`x_train` <- `test/X_train.txt` : 7352 rows, 561 columns
-   *`y_train` <- `test/y_train.txt` : 7352 rows, 1 columns
+   * `features` <- `features.txt` : 561 rows, 2 columns
+   * `activities` <- `activity_labels.txt` : 6 rows, 2 columns
+   * `subject_test` <- `test/subject_test.txt` : 2947 rows, 1 column
+   * `x_test` <- `test/X_test.txt` : 2947 rows, 561 columns
+   * `y_test` <- `test/y_test.txt` : 2947 rows, 1 columns
+   * `subject_train` <- `test/subject_train.txt` : 7352 rows, 1 column
+   * `x_train` <- `test/X_train.txt` : 7352 rows, 561 columns
+   * `y_train` <- `test/y_train.txt` : 7352 rows, 1 columns
 
 * Merges the training and the test sets to create one data set
    *`X` and `Y` are created by merging x_train and x_test, y_train and y_test using `rbind() function`
